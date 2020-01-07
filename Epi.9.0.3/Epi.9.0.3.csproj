@@ -178,10 +178,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\EPiServerDB.mdf" />
-    <Content Include="App_Data\EPiServerDB_log.ldf">
-      <DependentUpon>EPiServerDB.mdf</DependentUpon>
-    </Content>
+    <Content Include="App_Data\GeoLiteCity.dat" />
     <Content Include="hax.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -195,7 +192,6 @@
     <Content Include="modules\_protected\CMS\CMS.zip" />
     <Content Include="modules\_protected\EPiServer.Packaging.UI\web.config" />
     <Content Include="modules\_protected\EPiServer.Packaging.UI\EPiServer.Packaging.UI.zip" />
-    <Content Include="App_Data\GeoLiteCity.dat" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
