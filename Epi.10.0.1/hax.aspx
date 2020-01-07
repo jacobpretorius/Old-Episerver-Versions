@@ -29,3 +29,4 @@
     }
 %>
 <p>Done!</p>
+<p>Visit <a href="/episerver">the login page</a></p>

@@ -178,6 +178,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\EPiServerDB.mdf" />
+    <Content Include="App_Data\EPiServerDB_log.ldf">
+      <DependentUpon>EPiServerDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="hax.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
